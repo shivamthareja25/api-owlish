@@ -30,9 +30,11 @@ class Command(BaseCommand):
                         + str(row_dict['lattitude']) + ',' + \
                         str(row_dict['longitude']) + '&key=' +\
                         api_key)
-
+                import pdb
+                pdb.set_trace()
                 address_content = json.loads(response.content)
-                row_dict['address'] = address_content['formatted_address']
+                row_dict['address'] = \
+                    address_content['results'][0]['formatted_address']
                 #----------------------------------------------------------
                 
                 r = Customer(name=row_dict['name'],

@@ -3,7 +3,7 @@
 
 2. The Custom Django Command the CSV file is "python manage.py readmycsv"
     a.The file should be put in the parent oowlish folder and named Customer.csv.
-    b.The Google Maps API key is put inside constants.py
+    b.The Google Maps API key is put inside constants.py - Please update it with yours
 
 3. The UI based Api documentation can be found at '/swagger'.
 
