@@ -7,4 +7,3 @@ class Customer(models.Model):
     lattitude = models.FloatField(max_length=20, blank=True, null=True)
     longitude = models.FloatField(max_length=20, blank=True, null=True)
     address = models.CharField(max_length=200, blank=True, null=True)
-    pincode = models.CharField(max_length=10, blank=True, null=True)

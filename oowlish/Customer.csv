@@ -1,6 +1,6 @@
-name,sale_amount,longitude,lattitude,addess,pincode
-shivam,5000,454.4543254,54.543534,"847,second floor",110009
-shivam,5000,454.4543254,54.543534,"847,second floor",1144009
-shivam,5000,500.443,54.543534,chandmoholla,783939Mjf
-Raju,5000,454.4543254,54.543534,"847,second floor",110009
-shivam,5000,454.4543254,54.543534,"847,second floor",110009
+name,sale_amount,longitude,lattitude,addess
+shivam,5000,28.7093,77.2138,"847,second floor"
+shivam,5000,28.7093,77.2138,"847,second floor"
+shivam,5000,28.7093,77.2138,chandmoholla
+Raju,5000,28.7093,77.2138,"847,second floor"
+shivam,5000,28.7093,77.2138,"847,second floor"
