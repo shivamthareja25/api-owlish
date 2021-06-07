@@ -14,4 +14,6 @@
 5. In order to run the code in one command, user needs to have python 3.6 installed.
     a. Go to the root folder 
     b. Write in the CLI '. env/bin/activate'
+    c. Write 'cd oowlish'
+    d. Write 'python manage.py migrate'
     b. Then write 'python manage.py runserver'
