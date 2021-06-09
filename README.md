@@ -3,9 +3,11 @@
 
 2. The Custom Django Command the CSV file is "python manage.py readmycsv" a.The file should be put in the parent oowlish folder and named Customer.csv. b.The Google Maps API key is put inside constants.py - Please update it with yours. It is confined to a quota of 500 Calls per day.
 
-3.The UI based Api documentation can be found at '/swagger'.
+3. The UI based Api documentation can be found at '/swagger'.
 
-4.There are namely 2 GET API's: i. GetAllCustomers - It returns the data of all the customers in Json format. ii. GetCustomerById - It uses parameter called id(Primary Key). And gives back the data of the customer with the specific id.
+4. There are namely 2 GET API's: i. GetAllCustomers - It returns the data of all the customers in Json format. ii. GetCustomerById - It uses parameter called id(Primary Key). And gives back the data of the customer with the specific id.
+
+5. This application runs on port 0.0.0.0:8000.
 
 For configuration:
 1. Add your IP address in the allowed hosts lists inside settings.py
